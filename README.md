@@ -18,7 +18,7 @@ XuperTV WebOS es una aplicación multimedia para televisores LG webOS, desarroll
 En tu televisor LG con Homebrew Channel, agrega este repositorio desde **Settings → Add repository**:
 
 ```text
-https://raw.githubusercontent.com/Santiago097c/xupertv-webos-homebrew/main/repository.json
+https://raw.githubusercontent.com/Schrodinger097c/xupertv-webos-homebrew/main/repository.json
 ```
 
 Busca **XuperTV WebOS** en el catálogo, entra en sus detalles y selecciona **Install**. La instalación depende de los permisos disponibles en el televisor.
@@ -28,7 +28,7 @@ Busca **XuperTV WebOS** en el catálogo, entra en sus detalles y selecciona **In
 - **Versión:** 1.7.0
 - **Desarrollador:** Schrodinger
 - **App ID:** `com.schrodinger.xupertv.webos`
-- **Descarga:** [XuperTV WebOS 1.7.0](https://github.com/Santiago097c/xupertv-webos-homebrew/releases/tag/v1.7.0)
+- **Descarga:** [XuperTV WebOS 1.7.0](https://github.com/Schrodinger097c/xupertv-webos-homebrew/releases/tag/v1.7.0)
 - **Archivo:** `com.schrodinger.xupertv.webos_1.7.0_all.ipk`
 - **Tamaño:** 24.509.056 bytes
 - **SHA-256:** `f1c926dbf5df348bc7f8c68c165d1b4e114a511128eafda2828a13f5912fc1fa`
