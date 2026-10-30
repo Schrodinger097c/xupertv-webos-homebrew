@@ -1,40 +1,42 @@
-# XuperTV WebOS — Homebrew de Schrodinger
+# XuperTV WebOS
 
-- Autor: **Schrodinger**
-- Cuenta GitHub: **[Santiago097c](https://github.com/Santiago097c)**
-- App ID: `com.schrodinger.xupertv.webos`
-- Versión: `1.7.0`
-- IPK incluida: `com.schrodinger.xupertv.webos_1.7.0_all.ipk`
-- Hash SHA-256: `f1c926dbf5df348bc7f8c68c165d1b4e114a511128eafda2828a13f5912fc1fa`
+**Tu entretenimiento en la pantalla grande.**
 
-## Estado
+XuperTV WebOS es una aplicación multimedia para televisores LG webOS, desarrollada por **Schrodinger**. Ofrece una interfaz en español, diseñada para navegar con el control remoto.
 
-Este ZIP está **preparado para publicarse**. **No significa que el repositorio ni el Release existan ya en GitHub**. Tampoco incluye una publicación automática.
+## Funciones
 
-## Publicar sin consola
+- **Televisión en vivo:** explora la lista de canales disponibles.
+- **Películas y series:** navega por el catálogo desde tu televisor.
+- **Búsqueda integrada:** localiza contenido con mayor facilidad.
+- **Favoritos y Mi lista:** guarda los contenidos que deseas tener a mano.
+- **Historial:** consulta los contenidos vistos anteriormente.
+- **Reproductor integrado:** controla reproducción, audio y subtítulos cuando la fuente lo permita.
 
-1. Accede a `https://github.com/new` con tu usuario `Santiago097c` y crea un repositorio **público** llamado **`xupertv-webos-homebrew`**, con rama `main`.
-2. En la raíz del repositorio, sube con **Add file → Upload files** los cuatro archivos que vienen en la raíz de este ZIP: `repository.json`, `manifest.json`, `icon.png` y `README.md`. También puedes subir los scripts opcionales, pero **no necesitas subir `release/` como carpeta del repositorio**.
-3. En GitHub, ve a **Releases → Draft a new release** y crea la etiqueta **`v1.7.0`**. Adjunta desde la carpeta `release/` el archivo `com.schrodinger.xupertv.webos_1.7.0_all.ipk`. Pulsa **Publish release**.
-4. Comprueba que se abran estos tres enlaces públicos:
-   - Catálogo: https://raw.githubusercontent.com/Santiago097c/xupertv-webos-homebrew/main/repository.json
-   - Manifiesto: https://raw.githubusercontent.com/Santiago097c/xupertv-webos-homebrew/main/manifest.json
-   - IPK: https://github.com/Santiago097c/xupertv-webos-homebrew/releases/download/v1.7.0/com.schrodinger.xupertv.webos_1.7.0_all.ipk
-5. En **Homebrew Channel → Settings → Add repository**, pega esta URL exacta:
+## Instalación desde Homebrew Channel
 
-   `https://raw.githubusercontent.com/Santiago097c/xupertv-webos-homebrew/main/repository.json`
+En tu televisor LG con Homebrew Channel, agrega este repositorio desde **Settings → Add repository**:
 
-6. Busca **XuperTV WebOS** y elige **Install**. El proceso depende de los permisos disponibles en tu Homebrew Channel y dispositivo. Esta vía no garantiza instalación en televisores sin los permisos adecuados.
+```text
+https://raw.githubusercontent.com/Santiago097c/xupertv-webos-homebrew/main/repository.json
+```
+
+Busca **XuperTV WebOS** en el catálogo, entra en sus detalles y selecciona **Install**. La instalación depende de los permisos disponibles en el televisor.
+
+## Versión publicada
+
+- **Versión:** 1.7.0
+- **Desarrollador:** Schrodinger
+- **App ID:** `com.schrodinger.xupertv.webos`
+- **Descarga:** [XuperTV WebOS 1.7.0](https://github.com/Santiago097c/xupertv-webos-homebrew/releases/tag/v1.7.0)
+- **Archivo:** `com.schrodinger.xupertv.webos_1.7.0_all.ipk`
+- **Tamaño:** 24.509.056 bytes
+- **SHA-256:** `f1c926dbf5df348bc7f8c68c165d1b4e114a511128eafda2828a13f5912fc1fa`
 
 ## Actualizaciones
 
-Para otra versión, conserva el App ID `com.schrodinger.xupertv.webos`, actualiza el número en `manifest.json`, la URL de la IPK, `ipkSize` y `ipkHash.sha256`, sube los JSON nuevos al repositorio y crea otro GitHub Release con la IPK correspondiente.
+Las nuevas versiones se publicarán como GitHub Releases y se anunciarán en `manifest.json`. Se mantiene el identificador `com.schrodinger.xupertv.webos` para facilitar las actualizaciones.
 
-## Integridad
+## Información
 
-- SHA-256: `f1c926dbf5df348bc7f8c68c165d1b4e114a511128eafda2828a13f5912fc1fa`
-- Tamaño: `24509056` bytes
-
-**Importante:** este material conserva byte por byte la IPK 1.7.0 compartida anteriormente. No sustituye derechos de distribución de código y contenidos de terceros. Antes de subirla a un repositorio público, revisa dependencias y licencias y confirma que no existan tokens o credenciales privadas dentro del paquete.
-
-Referencia Homebrew Channel: https://github.com/webosbrew/webos-homebrew-channel
+La disponibilidad de contenido depende de las fuentes y autorizaciones correspondientes. XuperTV WebOS es una aplicación independiente y no está afiliada a LG Electronics.
