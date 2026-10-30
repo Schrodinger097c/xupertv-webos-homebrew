@@ -4,10 +4,10 @@
   "type": "web",
   "title": "XuperTV WebOS",
   "appDescription": "Disfruta TV en vivo, películas y series en LG webOS, con búsqueda, favoritos, Mi lista e historial. Desarrollado por Schrodinger.",
-  "iconUri": "https://raw.githubusercontent.com/Santiago097c/xupertv-webos-homebrew/main/icon.png",
-  "sourceUrl": "https://github.com/Santiago097c/xupertv-webos-homebrew",
+  "iconUri": "https://raw.githubusercontent.com/Schrodinger097c/xupertv-webos-homebrew/main/icon.png",
+  "sourceUrl": "https://github.com/Schrodinger097c/xupertv-webos-homebrew",
   "rootRequired": false,
-  "ipkUrl": "https://github.com/Santiago097c/xupertv-webos-homebrew/releases/download/v1.7.0/com.schrodinger.xupertv.webos_1.7.0_all.ipk",
+  "ipkUrl": "https://github.com/Schrodinger097c/xupertv-webos-homebrew/releases/download/v1.7.0/com.schrodinger.xupertv.webos_1.7.0_all.ipk",
   "ipkHash": {
     "sha256": "f1c926dbf5df348bc7f8c68c165d1b4e114a511128eafda2828a13f5912fc1fa"
   },
