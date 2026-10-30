@@ -1,0 +1,18 @@
+{
+  "paging": {
+    "page": 1,
+    "count": 1,
+    "maxPage": 1,
+    "itemsTotal": 1
+  },
+  "packages": [
+    {
+      "id": "com.schrodinger.xupertv.webos",
+      "title": "XuperTV WebOS",
+      "iconUri": "https://raw.githubusercontent.com/Santiago097c/xupertv-webos-homebrew/main/icon.png",
+      "manifestUrl": "https://raw.githubusercontent.com/Santiago097c/xupertv-webos-homebrew/main/manifest.json",
+      "shortDescription": "XuperTV WebOS para LG Smart TV. Developed by Schrodinger.",
+      "fullDescriptionUrl": "https://github.com/Santiago097c/xupertv-webos-homebrew#readme"
+    }
+  ]
+}
