@@ -7,9 +7,9 @@
   "iconUri": "https://raw.githubusercontent.com/Schrodinger097c/xupertv-webos-homebrew/main/icon.png",
   "sourceUrl": "https://github.com/Schrodinger097c/xupertv-webos-homebrew",
   "rootRequired": false,
-  "ipkUrl": "https://github.com/Schrodinger097c/xupertv-webos-homebrew/releases/download/v.2.0/XuperMH-v2.32.5-720.ipk",
+  "ipkUrl": "https://github.com/Schrodinger097c/xupertv-webos-homebrew/releases/download/v.2.0/XuperMH-v2.32.5-720-CORREGIDA.ipk",
   "ipkHash": {
-    "sha256": "3bd026fde821193e990da1f4fb301b95bd3f11eab0e53a26c1d9faa0e5224259"
+    "sha256": "52ec7f491c6e92f0a6cad41153aa67588b73e836796040df598da4a1c55fed13"
   },
-  "ipkSize": 22617562
+  "ipkSize": 22641218
 }
