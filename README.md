@@ -20,10 +20,16 @@ Actualiza el catálogo, busca **XuperMH** y selecciona **Install**. La instalaci
 - **Versión:** 2.32.5
 - **App ID:** `com.webosflux.xuptertv.fidelity`
 - **Resolución declarada:** 1280 × 720
-- **Paquete:** `XuperMH-v2.32.5-720.ipk`
-- **Tamaño:** 22.617.562 bytes
-- **SHA-256:** `3bd026fde821193e990da1f4fb301b95bd3f11eab0e53a26c1d9faa0e5224259`
+- **Paquete:** `XuperMH-v2.32.5-720-CORREGIDA.ipk`
+- **Tamaño:** 22.641.218 bytes
+- **SHA-256:** `52ec7f491c6e92f0a6cad41153aa67588b73e836796040df598da4a1c55fed13`
 - **Descarga:** [Release v.2.0](https://github.com/Schrodinger097c/xupertv-webos-homebrew/releases/tag/v.2.0)
+
+## Corrección de instalación (9 de noviembre de 2026)
+
+La IPK anterior tenía fechas de 1970 en los encabezados y entradas TAR. Esto podía provocar el mensaje `-5: ipk verified failed` al instalar desde Homebrew Channel. Reempaquetamos el archivo con fechas válidas, preservando los 230 archivos originales de la aplicación sin modificar su contenido. El manifiesto apunta ahora exclusivamente a la versión `CORREGIDA`.
+
+Si ya agregaste el repositorio, actualiza el catálogo de Homebrew Channel y vuelve a intentar **Install**. Esta reparación pasó validación de integridad y formato, pero aún requiere confirmación en un televisor real.
 
 ## Cambio respecto a XuperTV WebOS 1.7.0
 
