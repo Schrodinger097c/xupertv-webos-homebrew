@@ -1,15 +1,15 @@
 {
-  "id": "com.schrodinger.xupertv.webos",
-  "version": "1.7.0",
+  "id": "com.webosflux.xuptertv.fidelity",
+  "version": "2.32.5",
   "type": "web",
-  "title": "XuperTV WebOS",
-  "appDescription": "Disfruta TV en vivo, películas y series en LG webOS, con búsqueda, favoritos, Mi lista e historial. Desarrollado por Schrodinger.",
+  "title": "XuperMH",
+  "appDescription": "XuperMH para LG webOS: interfaz multimedia con catálogo, televisión en vivo y reproducción. Edición 2.32.5 de AarónMH.",
   "iconUri": "https://raw.githubusercontent.com/Schrodinger097c/xupertv-webos-homebrew/main/icon.png",
   "sourceUrl": "https://github.com/Schrodinger097c/xupertv-webos-homebrew",
   "rootRequired": false,
-  "ipkUrl": "https://github.com/Schrodinger097c/xupertv-webos-homebrew/releases/download/v1.7.0/com.schrodinger.xupertv.webos_1.7.0_all.ipk",
+  "ipkUrl": "https://github.com/Schrodinger097c/xupertv-webos-homebrew/releases/download/v.2.0/XuperMH-v2.32.5-720.ipk",
   "ipkHash": {
-    "sha256": "f1c926dbf5df348bc7f8c68c165d1b4e114a511128eafda2828a13f5912fc1fa"
+    "sha256": "3bd026fde821193e990da1f4fb301b95bd3f11eab0e53a26c1d9faa0e5224259"
   },
-  "ipkSize": 24509056
+  "ipkSize": 22617562
 }
