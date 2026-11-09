@@ -1,0 +1,40 @@
+name: Repack XuperMH 2.32.5 IPK for webOS
+on:
+  push:
+    paths:
+      - ".github/workflows/repack-xupermh.yml"
+      - "tools/fix_xupermh_ipk.py"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  repack:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download original GitHub Release asset
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release download "v.2.0" \
+            --repo "${{ github.repository }}" \
+            --pattern "XuperMH-v2.32.5-720.ipk" \
+            --dir .
+          echo "3bd026fde821193e990da1f4fb301b95bd3f11eab0e53a26c1d9faa0e5224259  XuperMH-v2.32.5-720.ipk" | sha256sum --check
+      - name: Repair archive metadata and verify all app bytes
+        run: |
+          python3 tools/fix_xupermh_ipk.py \
+            "XuperMH-v2.32.5-720.ipk" \
+            "XuperMH-v2.32.5-720-CORREGIDA.ipk"
+          dpkg-deb --info "XuperMH-v2.32.5-720-CORREGIDA.ipk"
+          sha256sum "XuperMH-v2.32.5-720-CORREGIDA.ipk"
+      - name: Publish repaired IPK to release v.2.0
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release upload "v.2.0" \
+            "XuperMH-v2.32.5-720-CORREGIDA.ipk" \
+            --repo "${{ github.repository }}" \
+            --clobber
