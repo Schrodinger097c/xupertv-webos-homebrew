@@ -7,11 +7,11 @@
   },
   "packages": [
     {
-      "id": "com.schrodinger.xupertv.webos",
-      "title": "XuperTV WebOS",
+      "id": "com.webosflux.xuptertv.fidelity",
+      "title": "XuperMH",
       "iconUri": "https://raw.githubusercontent.com/Schrodinger097c/xupertv-webos-homebrew/main/icon.png",
       "manifestUrl": "https://raw.githubusercontent.com/Schrodinger097c/xupertv-webos-homebrew/main/manifest.json",
-      "shortDescription": "TV en vivo, películas y series para LG webOS. Búsqueda, favoritos y Mi lista. Desarrollado por Schrodinger.",
+      "shortDescription": "XuperMH 2.32.5 para LG webOS. TV en vivo, catálogo multimedia y reproducción.",
       "fullDescriptionUrl": "https://raw.githubusercontent.com/Schrodinger097c/xupertv-webos-homebrew/main/description.html"
     }
   ]
