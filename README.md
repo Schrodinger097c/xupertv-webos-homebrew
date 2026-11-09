@@ -1,42 +1,36 @@
-# XuperTV WebOS
+# XuperMH 2.32.5 para LG webOS
 
-**Tu entretenimiento en la pantalla grande.**
+Este repositorio Homebrew, mantenido por **Schrodinger**, distribuye actualmente **XuperMH 2.32.5** para televisores LG webOS.
 
-XuperTV WebOS es una aplicación multimedia para televisores LG webOS, desarrollada por **Schrodinger**. Ofrece una interfaz en español, diseñada para navegar con el control remoto.
-
-## Funciones
-
-- **Televisión en vivo:** explora la lista de canales disponibles.
-- **Películas y series:** navega por el catálogo desde tu televisor.
-- **Búsqueda integrada:** localiza contenido con mayor facilidad.
-- **Favoritos y Mi lista:** guarda los contenidos que deseas tener a mano.
-- **Historial:** consulta los contenidos vistos anteriormente.
-- **Reproductor integrado:** controla reproducción, audio y subtítulos cuando la fuente lo permita.
+La IPK identifica la aplicación como **XuperMH**, desarrollada por **AarónMH** y descrita en sus metadatos como una modificación derivada del port de XuperTV para LG webOS de **CristiancoDEV (webosflux)**, bajo licencia MIT.
 
 ## Instalación desde Homebrew Channel
 
-En tu televisor LG con Homebrew Channel, agrega este repositorio desde **Settings → Add repository**:
+En Homebrew Channel, entra a **Settings → Add repository** y agrega:
 
 ```text
 https://raw.githubusercontent.com/Schrodinger097c/xupertv-webos-homebrew/main/repository.json
 ```
 
-Busca **XuperTV WebOS** en el catálogo, entra en sus detalles y selecciona **Install**. La instalación depende de los permisos disponibles en el televisor.
+Actualiza el catálogo, busca **XuperMH** y selecciona **Install**. La instalación está sujeta a los permisos del televisor.
 
-## Versión publicada
+## Versión activa
 
-- **Versión:** 1.7.0
-- **Desarrollador:** Schrodinger
-- **App ID:** `com.schrodinger.xupertv.webos`
-- **Descarga:** [XuperTV WebOS 1.7.0](https://github.com/Schrodinger097c/xupertv-webos-homebrew/releases/tag/v1.7.0)
-- **Archivo:** `com.schrodinger.xupertv.webos_1.7.0_all.ipk`
-- **Tamaño:** 24.509.056 bytes
-- **SHA-256:** `f1c926dbf5df348bc7f8c68c165d1b4e114a511128eafda2828a13f5912fc1fa`
+- **Aplicación:** XuperMH
+- **Versión:** 2.32.5
+- **App ID:** `com.webosflux.xuptertv.fidelity`
+- **Resolución declarada:** 1280 × 720
+- **Paquete:** `XuperMH-v2.32.5-720.ipk`
+- **Tamaño:** 22.617.562 bytes
+- **SHA-256:** `3bd026fde821193e990da1f4fb301b95bd3f11eab0e53a26c1d9faa0e5224259`
+- **Descarga:** [Release v.2.0](https://github.com/Schrodinger097c/xupertv-webos-homebrew/releases/tag/v.2.0)
 
-## Actualizaciones
+## Cambio respecto a XuperTV WebOS 1.7.0
 
-Las nuevas versiones se publicarán como GitHub Releases y se anunciarán en `manifest.json`. Se mantiene el identificador `com.schrodinger.xupertv.webos` para facilitar las actualizaciones.
+Antes, el repositorio publicaba **XuperTV WebOS 1.7.0** con identificador `com.schrodinger.xupertv.webos`. La nueva IPK tiene un **ID diferente**: no se instala como una actualización de la aplicación anterior. Ambas pueden aparecer instaladas por separado, según los permisos de webOS.
 
-## Información
+La versión histórica se conserva en [Releases v1.7.0](https://github.com/Schrodinger097c/xupertv-webos-homebrew/releases/tag/v1.7.0) para restauración si es necesario.
 
-La disponibilidad de contenido depende de las fuentes y autorizaciones correspondientes. XuperTV WebOS es una aplicación independiente y no está afiliada a LG Electronics.
+## Aviso
+
+La disponibilidad de contenido y sus derechos dependen de las fuentes y autorizaciones correspondientes. Este repositorio y la aplicación no están afiliados a LG Electronics.
